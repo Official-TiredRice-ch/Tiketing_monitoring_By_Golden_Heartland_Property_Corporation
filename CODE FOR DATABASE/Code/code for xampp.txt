@@ -1,0 +1,10 @@
+CREATE DATABASE CRUDSystem;
+use CRUDSystem;
+CREATE TABLE CRUDTable(
+	id int not null AUTO_INCREMENT PRIMARY KEY,
+    name varchar (40),
+	lastName varchar (40),
+	email varchar (40),
+	pass varchar (40) 
+		
+	);

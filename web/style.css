@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8d7da; /* Light Pink Background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow forms to wrap to the next line */
+    height: 230px; /* Fixed height for the container */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 250px; /* Adjust width as needed */
+    margin: 10px; /* Add margin between forms */
+}
+
+h2 {
+    text-align: center;
+    color: #e44d82; /* Pink Header Text */
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #e44d82; /* Pink Text */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e44d82; /* Pink Border */
+    border-radius: 4px;
+    background-color: #fce4ec; /* Light Pink Input Background */
+    color: #333;
+}
+
+input[type="submit"] {
+    background-color: #e44d82; /* Pink Submit Button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #c51162; /* Darker Pink on Hover */
+}
+
+.user-info {
+    background-color: #fce4ec; /* Light Pink Input Background */
+    border: 1px solid #e44d82; /* Pink Border */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 48%; /* Adjust width as needed */
+    width: auto;
+    display: none; /* Hide the user info initially */
+    margin: 10px;
+    height: 300px;
+    align-text: center;
+    color: ;
+    flex-wrap: wrap;
+}
+
+.user-info h2 {
+    text-align: center;
+    color: #e44d82; /* Pink Header Text */
+}
